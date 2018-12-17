@@ -25,6 +25,7 @@ $_SESSION['plc_power'] = 0;
 $_SESSION['plc_coreRunning'] = 0;
 
 unlink($path.'/scripts/plc/coreInExecution');
+unlink($path.'/scripts/plc/mqttInExecution');
 require($path.'/scripts/plc/plc_unsetStats.php');
 
 exec('pkill php > /dev/null 2>&1 &');
