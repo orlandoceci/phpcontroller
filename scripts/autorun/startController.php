@@ -33,7 +33,7 @@ foreach ($initData as $key => $value){
 		$_SESSION['indexDir'] = $value;
 	}
 	if ($key == 'controLogiClocklock'){
-		$_SESSION['controLogiClocklock'] = $value / 1000;
+		$_SESSION['controLogiClock'] = $value / 1000;
 	}
 	if ($key == 'statistics'){
 		$_SESSION['statistics'] = $value;
@@ -65,7 +65,7 @@ $enableCycle = fopen($path.'/scripts/plc/coreInExecution', 'w');
 fclose($enableCycle);
 
 $_SESSION['plc_coreRunning'] = 1;
-$plc_refreshingTimeClock = $_SESSION['controLogiClocklock'] * 1000000;
+$plc_refreshingTimeClock = $_SESSION['controLogiClock'] * 1000000;
 $execCore = 'php '.$path.'/scripts/autorun/startCore.php '.$plc_refreshingTimeClock.' '.$path.' > /dev/null 2>&1 &'; 
 exec($execCore);
 ?>
