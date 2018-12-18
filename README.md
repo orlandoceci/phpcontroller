@@ -28,6 +28,11 @@ sudo chown -R www-data:www-data /var/html/phpcontroller
 Read more info on the [official web site](https://phpcontroller.org/index.php?module=tipTricks) to configure an MQTT communication and discover all tip&tricks of Php Controller.
 
 
+## Configuration
+
+Click [here](https://phpcontroller.org/index.php?module=configuration) and follow just some simple steps to configure your controller.
+
+
 ## Documentation
 
 Full documentation is available [online](https://phpcontroller.org/index.php?module=configuration).
