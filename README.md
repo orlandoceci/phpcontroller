@@ -25,7 +25,7 @@ sudo chmod 755 -R /var/www/html/phpcontroller
 sudo chown -R www-data:www-data /var/html/phpcontroller
 ````
 
-Read more info on the official web site to configure an MQTT communication and discover all tip&tricks (https://phpcontroller.org/index.php?module=tipTricks) of Php Controller.
+Read more info on the [official web site](https://phpcontroller.org/index.php?module=tipTricks) to configure an MQTT communication and discover all tip&tricks of Php Controller.
 
 
 ## Documentation
