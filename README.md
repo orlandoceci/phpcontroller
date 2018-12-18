@@ -17,7 +17,7 @@ Thanks to the library Mosquitto-PHP (https://github.com/mgdm/Mosquitto-PHP) it's
 
 ## Installation
 
-Copy all folders and files of the package into the main path of your webserver (usually: /var/www/html/).
+Copy all folders and files of the package into the main path of your webserver (usually the result is /var/www/html/phpcontroller).
 Set the following privileges:
 
 ````
